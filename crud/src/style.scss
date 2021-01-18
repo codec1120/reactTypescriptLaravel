@@ -1,0 +1,28 @@
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/form/_all.sass";
+@import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/button.sass";
+@import "bulma/sass/elements/table.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/elements/icon.sass";
+@import "bulma/sass/elements/progress.sass";
+@import "bulma/sass/components/modal.sass";
+
+
+.form-div {
+    width: 40%;
+}
+
+.table-div {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.table-container .actionColumn {
+    cursor: pointer;
+}
+
+.buttonFormControl {
+    column-count: 2;
+    width: 42%;
+}
